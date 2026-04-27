@@ -14,6 +14,7 @@ import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JTextArea;
+import java.awt.Color;
 
 public class CALCULADORA extends JFrame implements ActionListener {
 
@@ -58,7 +59,7 @@ public class CALCULADORA extends JFrame implements ActionListener {
 	 */
 	public CALCULADORA() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 278, 306);
+		setBounds(100, 100, 319, 306);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -66,117 +67,125 @@ public class CALCULADORA extends JFrame implements ActionListener {
 		{
 			uno = new JButton("1");
 			uno.addActionListener(this);
-			uno.setBounds(21, 199, 44, 23);
+			uno.setBounds(21, 199, 60, 23);
 			contentPane.add(uno);
 		}
 		{
 			dos = new JButton("2");
 			dos.addActionListener(this);
-			dos.setBounds(72, 199, 44, 23);
+			dos.setBounds(91, 199, 60, 23);
 			contentPane.add(dos);
 		}
 		{
 			tres = new JButton("3");
 			tres.addActionListener(this);
-			tres.setBounds(126, 199, 44, 23);
+			tres.setBounds(161, 199, 60, 23);
 			contentPane.add(tres);
 		}
 		{
 			cuatro = new JButton("4");
 			cuatro.addActionListener(this);
-			cuatro.setBounds(21, 165, 44, 23);
+			cuatro.setBounds(21, 165, 60, 23);
 			contentPane.add(cuatro);
 		}
 		{
 			cinco = new JButton("5");
 			cinco.addActionListener(this);
-			cinco.setBounds(72, 165, 44, 23);
+			cinco.setBounds(91, 166, 60, 23);
 			contentPane.add(cinco);
 		}
 		{
 			seis = new JButton("6");
 			seis.addActionListener(this);
-			seis.setBounds(126, 165, 44, 23);
+			seis.setBounds(161, 165, 60, 23);
 			contentPane.add(seis);
 		}
 		{
 			siete = new JButton("7");
 			siete.addActionListener(this);
-			siete.setBounds(21, 131, 44, 23);
+			siete.setBounds(21, 131, 60, 23);
 			contentPane.add(siete);
 		}
 		{
 			ocho = new JButton("8");
 			ocho.addActionListener(this);
-			ocho.setBounds(72, 131, 44, 23);
+			ocho.setBounds(91, 132, 60, 23);
 			contentPane.add(ocho);
 		}
 		{
 			nueve = new JButton("9");
 			nueve.addActionListener(this);
-			nueve.setBounds(126, 131, 44, 23);
+			nueve.setBounds(161, 132, 60, 23);
 			contentPane.add(nueve);
 		}
 		{
 			cero = new JButton("0");
 			cero.addActionListener(this);
-			cero.setBounds(72, 233, 44, 23);
+			cero.setBounds(91, 233, 60, 23);
 			contentPane.add(cero);
 		}
 		{
 			txtPantalla = new JTextArea();
-			txtPantalla.setBounds(21, 54, 222, 29);
+			txtPantalla.setBounds(21, 54, 272, 29);
 			contentPane.add(txtPantalla);
 		}
 		{
 			Eliminar = new JButton("<x|");
 			Eliminar.addActionListener(this);
-			Eliminar.setBounds(180, 97, 63, 23);
+			Eliminar.setBounds(161, 97, 60, 23);
 			contentPane.add(Eliminar);
 		}
 		{
 			resta = new JButton("-");
 			resta.addActionListener(this);
-			resta.setBounds(21, 233, 44, 23);
+			resta.setBounds(21, 233, 60, 23);
 			contentPane.add(resta);
 		}
 		{
 			mas = new JButton("+");
 			mas.addActionListener(this);
-			mas.setBounds(126, 233, 44, 23);
+			mas.setBounds(161, 233, 60, 23);
 			contentPane.add(mas);
 		}
 		{
 			btnNewButton_13 = new JButton("x");
 			btnNewButton_13.addActionListener(this);
-			btnNewButton_13.setBounds(21, 97, 70, 23);
+			btnNewButton_13.setBounds(21, 97, 60, 23);
 			contentPane.add(btnNewButton_13);
 		}
 		{
 			btnNewButton_14 = new JButton("/");
 			btnNewButton_14.addActionListener(this);
-			btnNewButton_14.setBounds(100, 97, 70, 23);
+			btnNewButton_14.setBounds(91, 98, 60, 23);
 			contentPane.add(btnNewButton_14);
 		}
 		{
 			btnNewButton_15 = new JButton("=");
 			btnNewButton_15.addActionListener(this);
-			btnNewButton_15.setBounds(180, 165, 63, 91);
+			btnNewButton_15.setBounds(233, 131, 60, 91);
 			contentPane.add(btnNewButton_15);
 		}
 		{
 			txtOperacion = new JTextArea();
-			txtOperacion.setBounds(21, 11, 222, 29);
+			txtOperacion.setEditable(false);
+			txtOperacion.setBackground(Color.LIGHT_GRAY);
+			txtOperacion.setBounds(21, 11, 272, 29);
 			contentPane.add(txtOperacion);
 		}
 		{
 			borrartd = new JButton("CC");
 			borrartd.addActionListener(this);
-			borrartd.setBounds(180, 131, 63, 23);
+			borrartd.setBounds(233, 97, 60, 23);
 			contentPane.add(borrartd);
 		}
+		
+		btnPunto = new JButton(".");
+		btnPunto.addActionListener(this);
+		btnPunto.setBounds(231, 233, 60, 23);
+		contentPane.add(btnPunto);
 
 	}
+
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == borrartd) {
 			do_borrartd_actionPerformed(e);
@@ -226,13 +235,24 @@ public class CALCULADORA extends JFrame implements ActionListener {
 		if (e.getSource() == dos) {
 			do_btnNewButton_1_actionPerformed(e);
 		}
+		if (e.getSource() == uno) {
+		    do_uno_actionPerformed(e);
+		}
+		if (e.getSource() == btnPunto) {
+		    do_btnPunto_actionPerformed(e);
+		}
 	}
 	
 	String operador;
-	int num1;
+	double num1;
 	private JTextArea txtOperacion;
 	private JButton borrartd;
+	private JButton btnPunto;
 	
+	protected void do_uno_actionPerformed(ActionEvent e) {
+	 
+		txtPantalla.setText(txtPantalla.getText() + 1);
+	}
 	protected void do_btnNewButton_1_actionPerformed(ActionEvent e) {
 		
 		txtPantalla.setText(txtPantalla.getText()+2);
@@ -261,65 +281,89 @@ public class CALCULADORA extends JFrame implements ActionListener {
 		
 		txtPantalla.setText(txtPantalla.getText()+8);
 	}
-	
 	protected void do_nueve_actionPerformed(ActionEvent e) {
 		
 		txtPantalla.setText(txtPantalla.getText()+9);
 	}
-	protected void do_resta_actionPerformed(ActionEvent e) {
-		
-		 num1 = Integer.parseInt(txtPantalla.getText());
-		operador = "-";
-		txtOperacion.setText(num1+ "-");
-		txtPantalla.setText("");
-		
-		
+	protected void do_cero_actionPerformed(ActionEvent e) {
+		txtPantalla.setText(txtPantalla.getText()+0);
 	}
+	protected void do_btnPunto_actionPerformed(ActionEvent e) {
+	    if (!txtPantalla.getText().contains(".")) {
+	        txtPantalla.setText(txtPantalla.getText() + ".");
+	    }
+	}
+	//igual
 	protected void do_btnNewButton_15_actionPerformed(ActionEvent e) {
-		int num2 = Integer.parseInt(txtPantalla.getText());
+		double num2 = Double.parseDouble(txtPantalla.getText());
 		Numero n = new Numero(num1,num2);
 		double resultado=0;
 		
-		
-		if (operador.equals("-")) {
-			resultado = n.resta();
-		} else if (operador.equals("+")) {
-			resultado = n.sumar();
-		} else if(operador.equals("x")) {
-			resultado = n.multiplicacion();
-		}else if (operador.equals("/")){
-			if (num2 == 0) {
-				JOptionPane.showMessageDialog(this,"No se puede dividir entre 0");
-				return;
-			}
-			
-			resultado = n.division();
+		switch (operador) {
+        case "-":
+            resultado = n.resta();
+            break;
+        case "+":
+            resultado = n.sumar();
+            break;
+        case "x":
+            resultado = n.multiplicacion();
+            break;
+        case "/":
+            if (num2 == 0) {
+                JOptionPane.showMessageDialog(this, "No se puede dividir entre 0");
+                return;
+            }
+            resultado = n.division();
+            break;
 		}
 			
 		txtPantalla.setText(Double.toString(resultado));
 		txtOperacion.setText("");
+		
+		num1 = (double) resultado;   // ← guardar resultado
+	    operador = "";     
 	}
-	protected void do_cero_actionPerformed(ActionEvent e) {
-		txtPantalla.setText(txtPantalla.getText()+0);
-	}
+	//suma
 	protected void do_mas_actionPerformed(ActionEvent e) {
-		num1 = Integer.parseInt(txtPantalla.getText());
+		num1 = Double.parseDouble(txtPantalla.getText());
 		operador = "+";
 		txtOperacion.setText(num1+"+");
 		txtPantalla.setText("");
 	}
+	/*protected void do_mas_actionPerformed(ActionEvent e) {
+	    if (txtPantalla.getText().isEmpty()) {
+	        JOptionPane.showMessageDialog(this, "Ingresa un número primero");
+	        return;
+	    }
+
+	    num1 = Integer.parseInt(txtPantalla.getText());
+	    operador = "+";
+	    txtOperacion.setText(num1 + "+");
+	    txtPantalla.setText("");
+	}*/
+	//resta
+	protected void do_resta_actionPerformed(ActionEvent e) {
+		num1 = Double.parseDouble(txtPantalla.getText());
+		operador = "-";
+		txtOperacion.setText(num1+ "-");
+		txtPantalla.setText("");		
+	}
+	//multiplicacion
 	protected void do_btnNewButton_13_actionPerformed(ActionEvent e) {
-		num1 = Integer.parseInt(txtPantalla.getText());
+		num1 = Double.parseDouble(txtPantalla.getText());
 		operador = "x";
 		txtOperacion.setText(num1+ "x");
 		txtPantalla.setText("");
 	}
+	//division
 	protected void do_btnNewButton_14_actionPerformed(ActionEvent e) {
-		num1 = Integer.parseInt(txtPantalla.getText());
+		num1 = Double.parseDouble(txtPantalla.getText());
 		operador = "/";
 		txtOperacion.setText(num1+ "/");
 		txtPantalla.setText("");
 	}
+	//
 	protected void do_btnNewButton_10_actionPerformed(ActionEvent e) {
 		String numero = txtPantalla.getText();
 		if (numero.length()>0) {
@@ -331,5 +375,5 @@ public class CALCULADORA extends JFrame implements ActionListener {
 		txtOperacion.setText("");
 		txtPantalla.setText("");
 	}
-	}
+}
 
