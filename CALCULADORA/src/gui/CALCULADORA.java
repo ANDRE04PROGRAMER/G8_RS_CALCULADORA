@@ -331,17 +331,6 @@ public class CALCULADORA extends JFrame implements ActionListener {
 		txtOperacion.setText(num1+"+");
 		txtPantalla.setText("");
 	}
-	/*protected void do_mas_actionPerformed(ActionEvent e) {
-	    if (txtPantalla.getText().isEmpty()) {
-	        JOptionPane.showMessageDialog(this, "Ingresa un número primero");
-	        return;
-	    }
-
-	    num1 = Integer.parseInt(txtPantalla.getText());
-	    operador = "+";
-	    txtOperacion.setText(num1 + "+");
-	    txtPantalla.setText("");
-	}*/
 	//resta
 	protected void do_resta_actionPerformed(ActionEvent e) {
 		num1 = Double.parseDouble(txtPantalla.getText());

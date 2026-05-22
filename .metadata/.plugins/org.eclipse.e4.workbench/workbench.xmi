@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_8pnSQT5XEfG9Z8IPmE-EAw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_8pnSQj5XEfG9Z8IPmE-EAw" bindingContexts="_8pnSSz5XEfG9Z8IPmE-EAw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wb.core.guiEditor&quot; name=&quot;CALCULADORA.java&quot; tooltip=&quot;CALCULADORA/src/gui/CALCULADORA.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CALCULADORA/src/gui/CALCULADORA.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Numero.java&quot; tooltip=&quot;CALCULADORA/src/Clases/Numero.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CALCULADORA/src/Clases/Numero.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Numero.java&quot; tooltip=&quot;CALCULADORA/src/Clases/Numero.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CALCULADORA/src/Clases/Numero.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wb.core.guiEditor&quot; name=&quot;CALCULADORA.java&quot; tooltip=&quot;CALCULADORA/src/gui/CALCULADORA.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/CALCULADORA/src/gui/CALCULADORA.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_8pnSQj5XEfG9Z8IPmE-EAw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_9El-ET5XEfG9Z8IPmE-EAw" label="%trimmedwindow.label.eclipseSDK" x="179" y="179" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
@@ -251,23 +251,23 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_9SYicD5XEfG9Z8IPmE-EAw" elementId="org.eclipse.ui.editorss" selectedElement="_9SYicT5XEfG9Z8IPmE-EAw">
-      <children xsi:type="basic:PartStack" xmi:id="_9SYicT5XEfG9Z8IPmE-EAw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_NmSOwD5YEfGQmbEGfijKtw">
+      <children xsi:type="basic:PartStack" xmi:id="_9SYicT5XEfG9Z8IPmE-EAw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_5T_xQEI8EfG4haaxSIAIOQ">
         <tags>EditorStack</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_NmSOwD5YEfGQmbEGfijKtw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CALCULADORA.java" iconURI="platform:/plugin/org.eclipse.wb.core.ui/icons/gui_editor.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wb.core.guiEditor&quot; name=&quot;CALCULADORA.java&quot; partName=&quot;CALCULADORA.java&quot; title=&quot;CALCULADORA.java&quot; tooltip=&quot;CALCULADORA/src/gui/CALCULADORA.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CALCULADORA/src/gui/CALCULADORA.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;5300&quot; selectionTopPixel=&quot;3139&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wb.core.guiEditor&quot; name=&quot;CALCULADORA.java&quot; partName=&quot;CALCULADORA.java&quot; title=&quot;CALCULADORA.java&quot; tooltip=&quot;CALCULADORA/src/gui/CALCULADORA.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CALCULADORA/src/gui/CALCULADORA.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;8584&quot; selectionTopPixel=&quot;3129&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.wb.core.guiEditor</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_5T_xQEI8EfG4haaxSIAIOQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Numero.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.svg" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Numero.java&quot; partName=&quot;Numero.java&quot; title=&quot;Numero.java&quot; tooltip=&quot;CALCULADORA/src/Clases/Numero.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CALCULADORA/src/Clases/Numero.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;766&quot; selectionTopPixel=&quot;250&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Numero.java&quot; partName=&quot;Numero.java&quot; title=&quot;Numero.java&quot; tooltip=&quot;CALCULADORA/src/Clases/Numero.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/CALCULADORA/src/Clases/Numero.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;885&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
       </children>
     </sharedElements>
@@ -458,7 +458,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9IPH8D5XEfG9Z8IPmE-EAw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Of6x4EI8EfG4haaxSIAIOQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.svg" tooltip="Print" command="_8qs4Rz5XEfG9Z8IPmE-EAw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_80eEsFTPEfGdz9l-RJzF4A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.svg" tooltip="Print" command="_8qs4Rz5XEfG9Z8IPmE-EAw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9IPH8T5XEfG9Z8IPmE-EAw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -466,14 +466,14 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9IPH8z5XEfG9Z8IPmE-EAw" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Of8AAEI8EfG4haaxSIAIOQ" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.svg" tooltip="Undo" command="_8qomND5XEfG9Z8IPmE-EAw"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Of8nEEI8EfG4haaxSIAIOQ" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.svg" tooltip="Redo" enabled="false" command="_8qrpST5XEfG9Z8IPmE-EAw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_80hIAFTPEfGdz9l-RJzF4A" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.svg" tooltip="Undo" command="_8qomND5XEfG9Z8IPmE-EAw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_80kyYFTPEfGdz9l-RJzF4A" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.svg" tooltip="Redo" enabled="false" command="_8qrpST5XEfG9Z8IPmE-EAw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9IQWED5XEfG9Z8IPmE-EAw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
         <children xsi:type="menu:ToolBarSeparator" xmi:id="_9IQWET5XEfG9Z8IPmE-EAw" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_5WRpMEI8EfG4haaxSIAIOQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_5WRpMEI8EfG4haaxSIAIOQ" elementId="org.eclipse.ui.edit.text.actionSet.presentation">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9VKJoD5XEfG9Z8IPmE-EAw" elementId="org.eclipse.debug.ui.launchActionSet">
@@ -497,7 +497,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9IQWFD5XEfG9Z8IPmE-EAw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_Of-cQEI8EfG4haaxSIAIOQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.svg" tooltip="Pin Editor" type="Check" command="_8qs36T5XEfG9Z8IPmE-EAw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_80ujYFTPEfGdz9l-RJzF4A" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.svg" tooltip="Pin Editor" type="Check" command="_8qs36T5XEfG9Z8IPmE-EAw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9IQWFT5XEfG9Z8IPmE-EAw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -3146,7 +3146,7 @@
   <addons xmi:id="_8pnSVz5XEfG9Z8IPmE-EAw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_8pnSWD5XEfG9Z8IPmE-EAw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_8p60QD5XEfG9Z8IPmE-EAw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_7kuUEVTPEfGdz9l-RJzF4A" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_8qbxoD5XEfG9Z8IPmE-EAw" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_8qbxoT5XEfG9Z8IPmE-EAw" elementId="org.eclipse.wb.core.actions.category" name="WindowBuilder Pro" description="WindowBuilder Pro actions"/>

@@ -38,10 +38,6 @@ public class Numero {
 	public double multiplicacion () {
 		return numero1 *numero2;
 	}
-	/*public double division() {
-		
-		return (double)numero1/numero2;
-	}*/
 	public double division() {
 	    if (numero2 == 0) {
 	        JOptionPane.showMessageDialog(null, "No se puede dividir entre 0");
@@ -50,3 +46,4 @@ public class Numero {
 	    return (double) numero1 / numero2;
 	}
 }
+
